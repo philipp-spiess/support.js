@@ -1,0 +1,10 @@
+{ 
+  "name"         : "support.js",
+  "version"      : "0.0.1",
+  "dependencies" : {
+    "campfire" : ">= 0.0.1",
+    "socket.io" : ">= 0.0.1",
+    "stylus" : ">= 0.0.1",
+    "underscore" : ">= 0.0.1"
+  }
+}

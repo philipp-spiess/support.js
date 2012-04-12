@@ -1,0 +1,24 @@
+.support-js {
+  display:block;
+  position:fixed;
+  width:180px;
+  height:34px;
+  right:60px;
+  bottom:0;
+  background:#222;
+  color:white;
+  font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-weight:bold;
+  font-size:13px;
+  text-align:center;
+  line-height:34px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  cursor:pointer;
+}
+.support-js-widget {
+  display:block
+}
+.support-js-widget .open {
+  display:block
+}

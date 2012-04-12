@@ -1,0 +1,52 @@
+$height=300
+$footer_height=60
+$header_height=34
+
+.support-js
+  // Reset
+  margin:0
+  h1,h2,h3,h4,h5,input,button,p
+    margin:0
+    padding:0
+
+  width:240px
+  padding:5px
+  display:block
+  position:fixed
+  height:$height px
+  bottom:0
+  margin-bottom: - ( $height - $header_height) px
+  right:60px
+  bottom:0
+  background:#222
+  color:white
+  font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif
+  font-size:13px
+  text-align:center
+  border-top-left-radius:3px
+  border-top-right-radius:3px
+  cursor:pointer
+
+  h3.sjs-header
+    line-height:$header_height px
+    width:$header_height px
+    height:$header_height px
+    font-weight:bold
+    width:100%
+
+  div.sjs-body
+    margin: 5px 0
+    height: $height - $footer_height - $header_height - 10 px
+    width:100%
+
+  div.sjs-footer
+    height: $footer_height px
+    width:100%
+    background:red
+
+  &.closed 
+    margin-bottom: - $height + $footer_height + 5 - $header_height px
+
+  &.open 
+    margin-bottom:0
+
