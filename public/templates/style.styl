@@ -1,6 +1,7 @@
 $height=300
 $footer_height=60
 $header_height=34
+$width=240
 
 .support-js
   // Reset
@@ -9,7 +10,7 @@ $header_height=34
     margin:0
     padding:0
 
-  width:240px
+  width:$width px
   padding:5px
   display:block
   position:fixed
@@ -34,10 +35,32 @@ $header_height=34
     font-weight:bold
     width:100%
 
-  div.sjs-body
+  .sjs-body
     margin: 5px 0
     height: $height - $footer_height - $header_height - 10 px
     width:100%
+
+    &.register
+      display:block
+
+    &.chat
+      display:none
+      list-style-type:0
+      margin:0
+      padding:0
+      overflow-y:auto
+      li
+        display:block
+        margin:0
+        padding:0
+        width:100%
+        float:left
+        height:auto
+        text-align:left
+        margin-bottom:3px
+        strong
+          margin-right:4px
+
 
   div.sjs-footer
     height: $footer_height px
